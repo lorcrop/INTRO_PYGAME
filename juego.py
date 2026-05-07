@@ -56,7 +56,7 @@ while True:
 
     # dibujar rectangulo en ventana
     pygame.draw.rect(ventana, rojo, (XX,100,80,80))
-    pygame.draw.rect(ventana, rojo, (XX,YY,80,80))
+    pygame.draw.rect(ventana, rojo, (100,YY,80,80))
 
     # actualizar visualización de la ventana
     pygame.display.flip()
