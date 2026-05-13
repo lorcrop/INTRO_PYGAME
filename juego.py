@@ -35,23 +35,7 @@ while True:
 
     ventana.fill(azul)
 
-    # movimiento del rectángulo
-    XX = XX + MOVIMIENTO
-    YY = YY + MOVIMIENTO
 
-    if XX >= 320:
-        XX = 320
-        MOVIMIENTO = -3
-    elif XX <= 0:
-        XX = 0
-        MOVIMIENTO = 3
-
-    if YY >= 320:
-        YY =320
-        MOVIMIENTO = -3
-    elif YY <= 0:
-        YY = 0
-        MOVIMIENTO = 3
 
 
     # dibujar rectangulo en ventana
